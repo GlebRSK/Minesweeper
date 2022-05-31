@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "files": [
+    "server_bg.wasm",
+    "server.js",
+    "server.d.ts"
+  ],
+  "module": "server.js",
+  "types": "server.d.ts",
+  "sideEffects": false
+}
