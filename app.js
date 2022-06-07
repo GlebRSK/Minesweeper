@@ -33,7 +33,9 @@ function render() {
                 evt.preventDefault();
                 openFields(y, x);
                 render();
-            });    
+            });
+            
+            root.appendChild(element);
         }
     }
 }
